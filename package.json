@@ -1,0 +1,21 @@
+{
+  "name": "repo-first-commit-api",
+  "version": "0.0.0",
+  "description": "Micro service for fetching first commit of an GitHub repo.",
+  "repository": {
+    "url": "egoist/repo-first-commit-api",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "echo 'no tests!'",
+    "start": "node server.js"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "express": "^4.14.1",
+    "lru-cache": "^4.0.2",
+    "repo-first-commit": "^1.0.0"
+  }
+}
