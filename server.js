@@ -15,6 +15,8 @@ app.get('/', (req, res) => {
 Optional query: ?token=token
 <br><br>
 For example: <a href="/vuejs/vue">vuejs/vue</a>
+<br><br>
+Source code: <a href="https://github.com/egoist/repo-first-commit-api">egoist/repo-first-commit-api</a>
 `)
 })
 
