@@ -50,5 +50,4 @@ app.get('/:owner/:repo/:sha?', (req, res) => {
     })
 })
 
-app.listen(3000)
-console.log(`> Open http://localhost:3000`)
+export default  app
