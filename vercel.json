@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/:match*",
-      "destination": "/api/:match*"
+      "destination": "/api/index"
     }
   ]
 }
